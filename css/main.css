@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'web font', 'osx fallback', 'win fallback', sans-serif;
+    line-height: 1.5;
+}
+
+nav {
+    border-bottom: 30px solid hsl(210deg, 70%, 80%);
+    background-color: hsl(210deg, 70%, 50%);
+    text-align: center;
+    padding: 1rem;
+}
+
+.container .left {
+    float: left;
+    padding-left: 0;
+}
+
+.container .right {
+    float: right;
+    padding-right: 0;
+}
+
+nav a {
+    color: white;
+    font-size: 3.0rem;
+    text-decoration: none;
+}
+
+
+header {
+    padding: 1 rem;
+    margin: 0;
+    background-image: url(../img/frances-gunn-57423-unsplash.jpg);
+    background-size: cover;
+}
+
+h1 {
+    color: hsl(210deg, 70%, 40%);
+    font-size: 3rem;
+    padding:0;
+}
+
+h2 {
+    color: hsl(210deg, 70%, 50%);
+    font-size: 2rem;
+}
+
+body {
+    padding: 3rem;
+    font-size: 1 rem;
+}
+
+main {
+    padding: 1rem;
+    margin: 0px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: hsl(210deg, 70%, 50%);
+    padding-top: 4rem;
+}
+
+li {
+    font-size: 1.0rem;
+    padding: 3px;
+    list-style-position: inside;
+}
+
+.container1 h1 {
+    font-size: 8rem;
+    padding: 1rem;
+    text-shadow: 3px 2px 4px hsla(0, 0%, 0%, 0.5);
+}
+
+.container1 h2 {
+    font-size: 4rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    text-shadow: 3px 2px 4px hsla(0, 0%, 0%, 0.5);
+}
